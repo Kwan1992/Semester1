@@ -7,3 +7,8 @@ public class MyFirstJavaCode {
 
     }
 }
+
+//1. src folder
+// 2. .idea folder
+//3. at the start function
+// curly brackets

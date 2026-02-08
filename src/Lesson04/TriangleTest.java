@@ -15,5 +15,6 @@ public class TriangleTest {
         Triangle t3 = new Triangle (6,6,8);
         t3.showInfo();
 
+        int numberOfSides = Triangle.numberOfSides();
     }
 }

@@ -12,6 +12,11 @@ public class Triangle {
             this.sideB = b;
             this.sideC = c;
         }
+
+        static int numberOfSides(){
+            return 3;
+        }
+
     // method: calculate perimeter of the right Angle Triangle
         public double getPerimeter(){
             return sideA + sideB + sideC;

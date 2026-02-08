@@ -1,9 +1,9 @@
 package Lesson03;
 
 public class TemperatureConverter {
-    double Fahrenheit;
-    double Celsius;
-    void getTemperature() {
-
+    public static double getCelsius (double fahrenheit){
+        return (fahrenheit-32)*5/9;
     }
 }
+
+

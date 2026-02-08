@@ -18,13 +18,5 @@ public class Hjemmeopgave02 {
         System.out.println ( "\t\t /  \\");
         System.out.println ( "\t\t/____\\");
 
-        // You can also write one System.out.print with the value and + in ()
-
-
     }
-
 }
-
-
-//Exercise 2 Drawing a simple Rocket
-

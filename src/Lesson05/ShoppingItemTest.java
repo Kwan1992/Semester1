@@ -6,8 +6,8 @@ import java.util.Scanner;
 
 public class ShoppingItemTest {
     public static void main(String[] args) {
+        //Scanner
         Scanner in = new Scanner(System.in);
-
         int budget;
 
         // TODO: show the user what items are available and how much they are, so that the user knows what to write as answer to the next questions

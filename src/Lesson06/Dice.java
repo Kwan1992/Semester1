@@ -1,21 +1,28 @@
 package Lesson06;
-
 import java.util.Random;
 
 public class Dice {
+        // class
+    String name;
+    int numberOfActivities;
 
-    int side;
-    int random;
-    int number;
 
-    Dice (int side, int random, int number){
-        this.side = side;
-        this.random = random;
-        this.number = number;
+        //Constructors
+    Dice (int numberOfActivities, String name){
+        this.name = name;
+        this.numberOfActivities = numberOfActivities;
+
+
+        //Method
+
+        //if/else
+
+
+        // each roll print his activity
+
+        //using Math.random()
+
 
     }
-
-
-
 
 }

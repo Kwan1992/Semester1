@@ -25,7 +25,7 @@ public class Car {
         this.isAvailable = false;
 
         }
-            // They help protect object data and rules for accessing or modifying them.
+        // They help protect object data and rules for accessing or modifying them.
             //Getters = Methods that make field READABLE
             // SETTERS = Methods that make field WRITEABLE
         String getBrand (){

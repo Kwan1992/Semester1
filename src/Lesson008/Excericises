@@ -1,0 +1,61 @@
+📝 Assignment: Code Analysis (Version2)
+
+1. 📌 Part 1 - Create ONE of the following:
+
+A flow diagram of the program
+https://www.geeksforgeeks.org/competitive-programming/an-introduction-to-flowcharts/
+https://www.softwareideas.net/a/1679/while-and-do-while-loop-flowchart-
+
+2. 📌 Part 2 – Code Structure and Logic
+
+Answer the following:
+a. Why is random.nextInt(5) used instead of another number?
+- It's used because it defines the range of possible random numbers.
+The number must match the total number of possible outcomes.
+
+b. Why is an array used for shipLocation?
+- because a ship occupies multiple positions, not just one.
+shipLocation = {2, 3, 4} //A ship has multiple coordinates
+int shipLocation = 2;  //A single variable can only store one value:
+
+c. Why is a boolean isAlive variable needed?
+- used to track whether the ship is still active or already sunk.
+
+d. Why is numGuesses++ inside the loop?
+-is inside the loop because the number of guesses
+must increase every time the player makes a guess.
+
+e. What would happen if isAlive = false; was removed?
+-the ship will never be marked as sunk. The loop never stops
+The game runs forever.You create an infinite loop.
+
+f. Which class is responsible for checking hits?
+It's a SimpleDotCom class (knows where the ship is and checks hits)
+
+g. What is the advantage of separating Ship and GameHelper into different classes?
+-Separating Ship and GameHelper into different classes improves the structure,
+clarity, and flexibility of the program.
+
+3.📌 Part 3 - Deeper Reflection
+
+a. Is this program object-oriented? Explain why.
+-it uses classes and objects to represent real-world entities and responsibilities.
+And It uses encapsulation. Each class contains its own data and methods.
+
+b. Which object has the main responsibility for the game logic?
+- It's the Game object (e.g., SimpleDotComGame).Game object (main controller),
+Ship object, GameHelper object
+
+c. Does the main method have too much responsibility? Why or why not?
+- Yes, the main method can have too much responsibility if it contains the actual game logic
+instead of just starting the program.
+d. How could the design be improved?
+-by applying object-oriented principles more consistently and separating responsibilities more clearly.
+
+e. If you had to expand the game (for example: multiple ships), what would need to change?
+- 1. Change from a single Ship object to a collection, e.g.:
+  2. Update the game loop
+  3. Track overall game state
+  4. Place multiple ships in GameHelper or a Board class
+  5. Update user feedback
+  6. Optional improvements (Board class, Variable ship sizes, Input validation,Multiple players)

@@ -1,0 +1,27 @@
+🐦 Assignment: Extend the PetAdoptionCenter with a Bird Class
+Part 1 – Create the Bird Class
+Requirements:
+Create a new class called Bird. The class must inherit from Pet
+Add a new private attribute:
+    double wingSpan
+Create:
+A constructor
+Getter and setter methods
+Override the toString() method
+    The toString() method should print:
+        Name
+        Wing span
+A bird sound (for example: "chirp chirp!")
+
+Part 2 – Modify the PetAdoptionCenter
+You must update the program so that:
+The user can type "bird" when registering a pet
+The program asks:
+    Enter wing span in meters:
+A Bird object is created and stored in the Pet[] array
+
+Part 3 – Validation
+Make sure:
+Wing span must be greater than 0
+If the user enters invalid input, show a message and ask again.
+A message could be: "Invalid number!"

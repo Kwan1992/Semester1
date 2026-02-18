@@ -36,7 +36,7 @@ public class Tile {
 
     @Override
     public boolean equals(Object object) {
-        Tile tile = (Tile)object;
+        Tile tile = (Tile) object;
         return this.letter == tile.letter && this.value == tile.value;
     }
 }

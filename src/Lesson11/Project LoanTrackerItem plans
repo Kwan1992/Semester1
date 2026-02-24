@@ -1,0 +1,31 @@
+
+
+The Ultimate Loan Tracker Project
+
+Problems :
+• Equipment gets lost
+• Late fees are inconsistent
+• Staff manually calculate penalties
+• Sorting equipment lists is chaotic
+• No structure for future expansion
+
+Solutions :
+• The system must be extensible to accommodate additional loan item categories without
+  requiring structural redesign.
+• It must provide functionality for sorting loan items (MISSING)
+  This one it in StudentTest
+•  calculating late fees according to defined business logic. (MISSING)
+
+- need only 1 validation
+
+
+
+
+
+SmartFridgeVersion2
+- Abstract method: useProduct()
+ * - Polymorphism
+ * - No instanceof
+ * - No downcasting
+
+ Should we do them in powerpoint?

@@ -18,7 +18,9 @@ public class Bed extends Furniture {
 
         @Override
         public String toString() {
-            return " Bed | " + super.toString() + getDescription() + calculateShippingCost();
+            return " Bed | " + super.toString() + "\n "
+            + getDescription() + "\n " +
+            " The shipping cost : " + calculateShippingCost();
         }
     }
 

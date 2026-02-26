@@ -13,16 +13,18 @@ public abstract class Item {
     }
 
     // Getter
-    public String getTitle(){
+    public String getTitle() {
         return title;
     }
 
 
+    public abstract String getDescription();
+
+
     // toString method
     @Override
-    public String toString(){
-        return "Title: " + title + ", Loan days: " + loanDays + "," ;
+    public String toString() {
+        return "Title: " + title + ", " + getDescription() + ", Loan days: " + loanDays;
     }
-
-
 }
+

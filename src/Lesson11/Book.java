@@ -12,6 +12,11 @@ public class Book extends Item {
     }
 
     @Override
+    public String getDescription() {
+        return "";
+    }
+
+    @Override
     public String toString() {
         return "Book | " + super.toString() + " Author " + author;
     }

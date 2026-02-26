@@ -19,9 +19,6 @@ Solutions :
 - need only 1 validation
 
 
-
-
-
 SmartFridgeVersion2
 - Abstract method: useProduct()
  * - Polymorphism

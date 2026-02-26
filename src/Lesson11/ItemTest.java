@@ -5,6 +5,8 @@ public class ItemTest {
 
     public static void main(String[] args) {
 
+
+
         Scanner sc = new Scanner(System.in);
 
         int count = askForCount(sc);
@@ -81,8 +83,16 @@ public class ItemTest {
                 System.out.print("Title: ");
                 String title = sc.nextLine();
 
-                System.out.println("Duration time: ");
-                int durationTime = sc.nextInt();
+                int durationTime;
+                while(true) {
+                    System.out.println("Duration time: ");
+                    durationTime = sc.nextInt();
+                    if (durationTime < 0) {
+                        System.out.println("Invalid Duration time. Try again!!");
+                    } else {
+                        break;
+                    }
+                }
                 sc.nextLine();
 
                 int loanDays;
@@ -103,9 +113,16 @@ public class ItemTest {
 
                 System.out.print("Title: ");
                 String title = sc.nextLine();
-
-                System.out.println("Base value: ");
-                int baseValue = sc.nextInt();
+                int baseValue;
+                while(true) {
+                    System.out.println("Base value: ");
+                    baseValue = sc.nextInt();
+                    if (baseValue < 0) {
+                        System.out.println("Invalid base value. Try again!!");
+                    } else {
+                        break;
+                    }
+                }
                 sc.nextLine();
 
                 int loanDays;
@@ -113,7 +130,7 @@ public class ItemTest {
                     System.out.print("Loan days: ");
                     loanDays= sc.nextInt();
                     if (loanDays <0){
-                        System.out.println("invalid number");
+                        System.out.println("invalid number. Try again!");
                     } else {
                         break;
                     }
@@ -141,19 +158,19 @@ public class ItemTest {
     }
 
     // Manual bubble sort by title
-    public static void sortByTitle(Item[] arr) {
+    public static void sortByTitle(Item[] array) {
 
-        for (int i = 0; i < arr.length - 1; i++) {
+        for (int i = 0; i < array.length - 1; i++) {
 
-            for (int j = 0; j < arr.length - 1 - i; j++) {
+            for (int j = 0; j < array.length - 1 - i; j++) {
 
-                if (arr[j].getTitle()
-                        .compareTo(arr[j + 1].getTitle()) > 0) {
+                if (array[j].getTitle()
+                        .compareTo(array[j + 1].getTitle()) > 0) {
 
                     // Swap object
-                    Item temp = arr[j];
-                    arr[j] = arr[j + 1];
-                    arr[j + 1] = temp;
+                    Item temp = array[j];
+                    array[j] = array[j + 1];
+                    array[j + 1] = temp;
                 }
             }
         }

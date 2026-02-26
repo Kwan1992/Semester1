@@ -6,6 +6,7 @@ import java.util.Scanner;
 
 public class ShoppingItemTest {
     public static void main(String[] args) {
+
         //Scanner
         Scanner in = new Scanner(System.in);
         int budget;
@@ -18,6 +19,7 @@ public class ShoppingItemTest {
         System.out.println("Type your budget : ");
         budget = in.nextInt();
         System.out.println("Your budget is: " + budget + " kr.");
+
 
 
         // TODO: compare "itemName" to the available items' name, so that you are not attempting to buy all the available items

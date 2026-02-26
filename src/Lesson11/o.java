@@ -4,14 +4,20 @@ public class o {
     public static void main(String[] args) {
         int a =5;
         int b =3;
+        int c =4;
 
 
-        int oldValue = a;
+        int oldValue = b;
         a = b;
-        b = oldValue;
+        a= oldValue;
 
-        System.out.println("a:"+a);
-        System.out.println("b:"+b);
+
+        System.out.println("a:"+ a);
+        System.out.println("b:"+ b);
+        System.out.println("c:"+ c);
+
+
+
 
     }
 }

@@ -1,13 +1,17 @@
-1. Lav et nyt Enum kaldet Fag med fx:
-FORTRYLLELSER,
-ELIXIR,
-FORSVAR_MOD_MØRKE_KUNSTER,
-ASTROLOGI
+Your task
 
-// BONUS: Make ONLY if you are ready with your other 1. exercises in ArrayList and Exception package.
+1. Cat or 2. Dog
+behavior (energy, name, feed, play)
+- Scanner User input number 1 (dog) or 2 (cat)
+- Return input and ask user to create a NAME
+- Print out name and ASCII of the animal
+- Ask user "What would you like to do ?" (MODD)
+- Return user input (PLAY) and print out "Name  is running after a ball,"
+- Ask again "what would you like to do?" (PLAY; FEED; SLEEP)
+- User put 3 and print out the ASCII of the animal sleeps
+- Ask again "Name now is full energy. What would you like to do?" (PLAY; FEED; SLEEP)
 
-2. Tilføj et felt Fag favoritFag i Elev-klassen.
-
-Opdater konstruktøren, så man kan angive navn, hus og favoritfag.
-
-3. Lav en metode, der udskriver alle elever, der har samme favoritfag.
+- Cat and Dog is shearing behavior (energy, name, feed, play)
+ Example: When a Dog plays, it loses 2 energy, but when a Cat plays, it loses 1
+ energy.
+ Feeding is also customized (Dogs love bones, Cats love fish)
